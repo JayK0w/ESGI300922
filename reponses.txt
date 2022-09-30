@@ -1,0 +1,43 @@
+Exercice 1 :
+a-  Pour faire un clone du dépôt distant, il faut utiliser la commande suivante :
+git clone 
+
+dossier du nom de choosealicense.com vient d'être créé. Il contient tous les fichiers du dépôt distant.
+
+b- pour avoir acces au branches nous faisons la commande:
+git branch -a 
+nous pouvons donc constater qu'il ya deux branches
+la 1ere gh-pages
+la deuxieme spdx-license-templates
+
+Exercice 2 :
+
+a-  le numero de la derniere pull request est  la pull request #1028
+
+b- la pull request #550 contient 2 commit
+
+c-  le numero de la pull request est #549
+le commit 8061f2f3d059ba3d7726dc698dabd5fa713ed2ae
+le commit contient 2 commit
+l'auteur est  @mlinksva
+
+Exercice 3 :
+
+a-  pour revenir a la version précèdente de l'index il suffit de faire :  git reset --hard <commit>
+
+b-  le plugin supprimé est le plugin auto-complete
+
+c-  git show b30306e502b99aabab256a5d2f68e8d50ba5072a --name-only
+
+d-  git reset b30306e502b99aabab256a5d2f68e8d50ba5072a -- _plugins/auto-complete.rb
+
+Exercice 4 :
+
+a-	touch user-1.0.txt
+	git add user-1.0.txt
+	git commit -m "mon commit"
+
+b-	git status
+
+c- Envoyer votre dernier commit
+	git push  
