@@ -40,4 +40,4 @@ a-	touch user-1.0.txt
 b-	git status
 
 c- Envoyer votre dernier commit
-	git push  
+	git push -u origin main
